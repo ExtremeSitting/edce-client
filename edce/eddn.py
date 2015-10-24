@@ -43,7 +43,6 @@ def convertCommodityEDDN(name):
         return commodities[name]
     return name
 
-    
 def submitEDDN(data):
     if edce.globals.debug:
         print(">>>>>>>>>>>>>>>> submitEDDN")

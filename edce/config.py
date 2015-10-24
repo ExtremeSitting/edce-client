@@ -65,7 +65,7 @@ def performSetup():
     username = input("Frontier Store Username: ").strip()
     password = getpass.getpass('Frontier Store Password: ').strip()
     enableEDDNInput = input("Send market data to EDDN. No private information is sent. [Y/n]: ").strip().lower()
-        
+
     enableEDDN = enableEDDNInput == '' or enableEDDNInput == 'y'
 
     writeConfig(username, password, enableEDDN)
